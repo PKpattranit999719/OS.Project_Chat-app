@@ -18,7 +18,7 @@ const Login = () => {
                 >
                     <Col xs={6}>
                         <Stack gap={3}>
-                            <h2>Login</h2>
+                            <h2 className="link-light text-decoration-none">Login</h2>
 
                             <Form.Control type="email" placeholder="Email" onChange={(e) => updateLoginInfo
                                 ({ ...loginInfo, email: e.target.value })} />

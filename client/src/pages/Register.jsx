@@ -20,7 +20,7 @@ const Register = () => {
         >
           <Col xs={6}>
             <Stack gap={3}>
-              <h2>Register</h2>
+              <h2 className="link-light text-decoration-none">Register</h2>
               <Form.Control type="text" placeholder="Name" onChange={(e) => updateRegisterInfo
             ({...registerInfo,name: e.target.value})}/>
               <Form.Control type="email" placeholder="Email" onChange={(e) => updateRegisterInfo
