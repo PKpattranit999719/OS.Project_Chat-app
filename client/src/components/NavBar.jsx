@@ -10,7 +10,7 @@ const NavBar = () => {
         <Container>
             <h2>
                 <Link to="/" className="link-light text-decoration-none">
-                    ChattApp
+                    ChatApp
                 </Link>
             </h2>
             <span className="text-warning">Logged in as {user?.name}</span>
